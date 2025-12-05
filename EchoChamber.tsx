@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
-import { analyzeEchoChamber } from './services/geminiService';
+import { analyzeEchoChamber } from './geminiService';
 import { TweetNode, TweetLink, UserPath } from './types';
 
 interface EchoChamberProps {
