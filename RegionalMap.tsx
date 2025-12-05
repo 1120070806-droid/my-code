@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { REGIONS } from '../constants';
-import { RegionData } from '../types';
+import { REGIONS } from './constants';
+import { RegionData } from './types';
 
 const RegionalMap: React.FC = () => {
   const [hoveredRegion, setHoveredRegion] = useState<RegionData | null>(null);
