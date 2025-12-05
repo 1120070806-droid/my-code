@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { generateHeadlines } from '../services/geminiService';
+import { generateHeadlines } from './services/geminiService';
 import { Loader2, ThumbsUp, ThumbsDown, User, RefreshCw } from 'lucide-react';
 
 const PROFILES = [
