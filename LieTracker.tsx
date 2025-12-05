@@ -1,6 +1,6 @@
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts';
-import { UserPath } from '../types';
+import { UserPath } from './types';
 
 const data = [
   { day: '第1天', truth: 10, lie: 50, label: '巴士揭幕' },
