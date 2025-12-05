@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import EchoChamber from './components/EchoChamber';
-import LieTracker from './components/LieTracker';
-import RegionalMap from './components/RegionalMap';
-import AlgoSimulator from './components/AlgoSimulator';
+import EchoChamber from './EchoChamber';
+import LieTracker from './LieTracker';
+import RegionalMap from './RegionalMap';
+import AlgoSimulator from './AlgoSimulator';
 import { UserPath, ModuleType } from './types';
 import { Flag, Info, ChevronRight, Share2, LineChart, Map, Cpu, ArrowLeft } from 'lucide-react';
 
